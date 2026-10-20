@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Area do cubo</title>
+    <script>
+            function qdd(){
+                var vbqq = document.dados.bdc.value;
+                var vaqq = document.dados.adc.value;
+                var vlqq = document.dados.ldc.value;
+            if((vbqq == 0) || (vaqq == 0) || (vlqq == 0)){
+                alert("Digite o valor da base, da altura e da largura do cubo");
+            }else{
+                var areaqq=(vbqq*vaqq*vlqq);
+                alert("O VALOR DO VOLUME È "+areaqq+"M³");}}
+            </script>
+        </head>
+    <body>
+        <form name="dados">
+            <img src="C:\Larissa\site 1\img\cubo site 2.jpg" width="150" height="150"><br><br>
+            <label> Digite o valor da base do cubo</label><br>
+            <input type="text" name="bdc" value="0"><br><br>
+            <label> Digite o valor da altura do cubo</label><br>
+            <input type="text" name="adc" value="0"><br><br>
+            <label> Digite o valor da largura do cubo</label><br>
+            <input type="text" name="ldc" value="0"><br><br>
+            <input type= "button" name="bcq" value="calcular" onclick="qdd()">
+        </form>
+    </body>
+    </html>
+    
